@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 个人运行时数据
+config.json
+config.json.bak
+pet_state.json
+pet_state.json.bak
+tasks.json
+session_recovery.json
+comments.json
+run.err
+run.out
+logs/
+
+# 构建产物
+build/
+dist/
+*.spec
+*.exe
+*.zip
+
+# 中间素材
+assets/candidates/
+assets/previews/
+
+.DS_Store
+Thumbs.db
